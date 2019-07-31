@@ -34,7 +34,7 @@ def play(songs)
   if songs.find{|song| song == user_input}
     puts "Playing #{song}"
   elsif songs.length <= user_input.to_i
-      puts "Playing #{songs[user_input+1]}"
+      puts "Playing #{songs[user_input.to_i+1]}"
   else
     puts "Invalid input, please try again"
   end
