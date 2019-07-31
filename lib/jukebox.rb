@@ -33,7 +33,7 @@ def play(songs)
   user_input = gets.chomp
   if songs.find{|song| song == user_input}
     puts "Playing #{song}"
-  elsif songs.length <= user_input
+  elsif songs.length <= user_input.to_i
       puts "Playing #{songs[user_input+1]}"
   else
     puts "Invalid input, please try again"
