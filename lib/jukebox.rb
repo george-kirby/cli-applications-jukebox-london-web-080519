@@ -31,7 +31,13 @@ end
 def play(songs)
   puts "Please enter a song name or number:"
   user_input = gets.chomp
+  if # user_input == a song's index + 1
   
+  elsif # user_input == a song's name
+  
+  else
+    puts "Invalid input, please try again"
+  end
 end
 
 
