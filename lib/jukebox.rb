@@ -21,12 +21,13 @@ def help
 end
 
 
-def play
+def list(songs)
+  songs.each do |song|
   
 end
 
 
-def list
+def play
   
 end
 
